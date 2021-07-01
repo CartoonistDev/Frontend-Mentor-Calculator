@@ -4,23 +4,6 @@ const operationEl = document.querySelectorAll('.operation');
 const equalEl = document.querySelector('.equal')
 const resetEl = document.querySelector('.reset')
 const deleteLastEl = document.querySelector('.delete_last_input')
-const themeEl = document.querySelector('.theme')
-const themeListEl = document.querySelector('.theme-list')
-const themeChangeEl = document.querySelector('.theme-change')
-const listEl = document.querySelector('.list')
-const colorChange = document.querySelector('.color-change')
-const radioOneColor = document.querySelector('.radio1')
-const radioTwoColor = document.querySelector('.radio2')
-const radioThreeColor = document.querySelector('.radio3')
-
-
-colorChange = false;
-
-radioOneColor.addEventListener('click', (e)=>{
-    if(e.target.radioOneColor){
-        colorChange = true;
-    }
-})
 
 
 let disNum = '';
